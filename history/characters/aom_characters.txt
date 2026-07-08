@@ -25,7 +25,7 @@
 		}
 	}
 	733.1.1 = {
-		give_nickname = nick_the_mad_arab
+		give_nickname = aom_nick_the_mad_arab
 	}
 	738.1.1 = {
 		death = yes
@@ -51,7 +51,7 @@
 		birth = yes
 	}
 	400.1.1 = {
-		give_nickname = nick_the_mad_monk 
+		give_nickname = aom_nick_the_mad_monk 
 	}
 	420.1.1 = {
 		death = yes

@@ -3,7 +3,7 @@
 # Spawn Norse Artifacts
 aom_artifact_spawning.0011 = {
 	type = character_event
-		title = aom_artifact_spawning.0011.t
+	title = aom_artifact_spawning.0011.t
 	desc = aom_artifact_spawning.desc
 	theme = medicine
 	right_portrait = {

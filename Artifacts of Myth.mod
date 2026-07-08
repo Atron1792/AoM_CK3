@@ -4,6 +4,7 @@ tags={
 	"Decisions"
 	"Religion"
 	"Culture"
+	"1.19 'Scribe'"
 }
 name="Artifacts of Myth"
 supported_version="1.19.*"

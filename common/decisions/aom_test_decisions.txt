@@ -1,9 +1,7 @@
 ﻿# Transfer All Artifacts
 aom_debug_transfer_all_artifacts = {
 	decision_group_type = debug
-	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_legend.dds"
-	}
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_legend.dds" }
 	desc = aom_debug_transfer_all_artifacts_desc
 	is_shown = { debug_only = yes }
 	is_valid_showing_failures_only = { is_available_adult_or_is_commanding = yes }
