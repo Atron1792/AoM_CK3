@@ -1,0 +1,10 @@
+﻿# Artifact Rarity
+aom_set_artifact_rarity_legendary_effect = { # Vanilla is tiers 1-4; Legendary is tier 5.
+	hidden_effect = {
+		set_artifact_rarity = illustrious
+		set_variable = {
+			name = aom_artifact_display_rarity
+			value = 5
+		}
+	}
+}

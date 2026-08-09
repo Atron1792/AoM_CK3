@@ -1,0 +1,10 @@
+﻿aom_artifact_display_rarity_value = {
+	value = 0
+	if = {
+		limit = {
+			rarity = illustrious
+			has_variable = aom_artifact_display_rarity
+		}
+		add = var:aom_artifact_display_rarity
+	}
+}

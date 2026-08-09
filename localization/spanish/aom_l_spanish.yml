@@ -1,4 +1,14 @@
 ﻿l_spanish:
+# Artifact Rarity
+  aom_legendary: "Legendario"
+  aom_legendary_artifact_rarity_and_type: "#color:{0.9,0.6,0.0} $aom_legendary$ [Artifact.GetType]#!"
+  aom_native_artifact_rarity_and_type: "[Artifact.GetRarity] [Artifact.GetType]"
+  aom_legendary_artifact_rarity_and_slot_type: "#color:{0.9,0.6,0.0} $aom_legendary$ [Artifact.GetSlotType]#!"
+  aom_native_artifact_rarity_and_slot_type: "[Artifact.GetRarity] [Artifact.GetSlotType]"
+  rarity_v: "V"
+  ARTIFACT_RARITY_AND_TYPE: "[Artifact.Custom('aom_artifact_rarity_and_type')]"
+  ARTIFACT_RARITY_AND_SLOT_TYPE: "[Artifact.Custom('aom_artifact_rarity_and_slot_type')]"
+
 # Artifact Types
   artifact_bow_simple: "Arco"
   artifact_armor_simple: "Armadura"
@@ -136,6 +146,34 @@
   aom_convert_to_shinto_decision_tooltip: "Convierte tu fe al sintoísmo si posees un artefacto sintoísta."
   aom_convert_to_shinto_decision_confirm: "Comunicarse con los Kami"
   aom_has_shinto_artifact: "Posees un artefacto shinto"
+
+# Artifact Destruction Gold Gain Gamerule
+  rule_aom_artifact_destruction_gold_gain: "Oro obtenido al destruir artefactos"
+
+  setting_aom_artifact_destruction_gold_gain_100: "#P 100 %#!"
+  setting_aom_artifact_destruction_gold_gain_100_desc: "Destruir un artefacto otorga su valor de oro #bold completo#! del juego base.\n#help Se pueden destruir artefactos de rareza ilustre o inferior. Los artefactos legendarios añadidos por Artifacts of Myth son indestructibles.#!"
+
+  setting_aom_artifact_destruction_gold_gain_50: "#M 50 %#!"
+  setting_aom_artifact_destruction_gold_gain_50_desc: "Destruir un artefacto otorga #bold la mitad#! de su valor de oro.\n#help Se pueden destruir artefactos de rareza ilustre o inferior. Los artefactos legendarios añadidos por Artifacts of Myth son indestructibles.#!"
+
+  setting_aom_artifact_destruction_gold_gain_20: "#V 20 %#!"
+  setting_aom_artifact_destruction_gold_gain_20_desc: "Destruir un artefacto otorga #bold una quinta parte#! de su valor de oro.\n#help Se pueden destruir artefactos de rareza ilustre o inferior. Los artefactos legendarios añadidos por Artifacts of Myth son indestructibles.#!"
+
+  setting_aom_artifact_destruction_gold_gain_0: "#R 0 %#!"
+  setting_aom_artifact_destruction_gold_gain_0_desc: "Destruir un artefacto no otorga #bold nada#! de oro.\n#help Se pueden destruir artefactos de rareza ilustre o inferior. Los artefactos legendarios añadidos por Artifacts of Myth son indestructibles.#!"
+
+  aom_artifact_is_legendary_tt: "Los artefactos legendarios no se pueden destruir"
+
+# Non-Decaying Artifact Destruction Gamerule
+  rule_aom_non_decaying_artifact_destruction: "Destrucción de artefactos imperecederos"
+
+  setting_aom_non_decaying_artifact_destruction_disabled: "#R Desactivada#!"
+  setting_aom_non_decaying_artifact_destruction_disabled_desc: "Los artefactos que no se deterioran #bold no pueden#! destruirse."
+
+  setting_aom_non_decaying_artifact_destruction_enabled: "#P Activada#!"
+  setting_aom_non_decaying_artifact_destruction_enabled_desc: "Los artefactos que no se deterioran #bold pueden#! destruirse."
+
+  aom_artifact_is_non_decaying_tt: "Los artefactos imperecederos no pueden destruirse."
 
 # Artifact Requirements Gamerule
   rule_aom_artifact_requirements: "Requisitos de Artefactos"

@@ -1,0 +1,84 @@
+﻿aom_artifact_rarity = {
+	type = artifact
+	text = {
+		trigger = {
+			rarity = illustrious
+			var:aom_artifact_display_rarity = 5
+		}
+		localization_key = aom_legendary
+	}
+	text = {
+		trigger = { rarity = illustrious }
+		localization_key = illustrious
+	}
+	text = {
+		trigger = { rarity = famed }
+		localization_key = famed
+	}
+	text = {
+		trigger = { rarity = masterwork }
+		localization_key = masterwork
+	}
+	text = {
+		trigger = { rarity = common }
+		localization_key = common
+	}
+}
+
+aom_artifact_rarity_and_type = {
+	type = artifact
+	text = {
+		trigger = {
+			rarity = illustrious
+			var:aom_artifact_display_rarity = 5
+		}
+		localization_key = aom_legendary_artifact_rarity_and_type
+	}
+	text = {
+		trigger = { always = yes }
+		localization_key = aom_native_artifact_rarity_and_type
+	}
+}
+
+aom_artifact_rarity_and_slot_type = {
+	type = artifact
+	text = {
+		trigger = {
+			rarity = illustrious
+			var:aom_artifact_display_rarity = 5
+		}
+		localization_key = aom_legendary_artifact_rarity_and_slot_type
+	}
+	text = {
+		trigger = { always = yes }
+		localization_key = aom_native_artifact_rarity_and_slot_type
+	}
+}
+
+# Override the vanilla four-level ledger label so Legendary artifacts show V.
+artifact_rarity_ledger = {
+	type = artifact
+	text = {
+		trigger = {
+			rarity = illustrious
+			var:aom_artifact_display_rarity = 5
+		}
+		localization_key = rarity_v
+	}
+	text = {
+		trigger = { rarity = common }
+		localization_key = rarity_i
+	}
+	text = {
+		trigger = { rarity = masterwork }
+		localization_key = rarity_ii
+	}
+	text = {
+		trigger = { rarity = famed }
+		localization_key = rarity_iii
+	}
+	text = {
+		trigger = { rarity = illustrious }
+		localization_key = rarity_iv
+	}
+}

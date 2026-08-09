@@ -1,4 +1,14 @@
 ﻿l_simp_chinese:
+# Artifact Rarity
+  aom_legendary: "传说级"
+  aom_legendary_artifact_rarity_and_type: "#color:{0.9,0.6,0.0} $aom_legendary$ [Artifact.GetType]#!"
+  aom_native_artifact_rarity_and_type: "[Artifact.GetRarity] [Artifact.GetType]"
+  aom_legendary_artifact_rarity_and_slot_type: "#color:{0.9,0.6,0.0} $aom_legendary$ [Artifact.GetSlotType]#!"
+  aom_native_artifact_rarity_and_slot_type: "[Artifact.GetRarity] [Artifact.GetSlotType]"
+  rarity_v: "V"
+  ARTIFACT_RARITY_AND_TYPE: "[Artifact.Custom('aom_artifact_rarity_and_type')]"
+  ARTIFACT_RARITY_AND_SLOT_TYPE: "[Artifact.Custom('aom_artifact_rarity_and_slot_type')]"
+
 # Artifact Types
   artifact_bow_simple: "弓"
   artifact_armor_simple: "护甲"
@@ -136,6 +146,34 @@
   aom_convert_to_shinto_decision_tooltip: "如果你拥有神道教的遗物，可以改信神道教。"
   aom_convert_to_shinto_decision_confirm: "与神灵交流"
   aom_has_shinto_artifact: "你拥有神道教的遗物"
+
+# Artifact Destruction Gold Gain Gamerule
+  rule_aom_artifact_destruction_gold_gain: "销毁神器所得金币"
+
+  setting_aom_artifact_destruction_gold_gain_100: "#P 100%#!"
+  setting_aom_artifact_destruction_gold_gain_100_desc: "销毁神器时获得其#bold 完整#!的基础游戏金币价值。\n#help 可以销毁传世及以下稀有度的神器。Artifacts of Myth 添加的传奇神器无法被销毁。#!"
+
+  setting_aom_artifact_destruction_gold_gain_50: "#M 50%#!"
+  setting_aom_artifact_destruction_gold_gain_50_desc: "销毁神器时获得其金币价值的#bold 一半#!。\n#help 可以销毁传世及以下稀有度的神器。Artifacts of Myth 添加的传奇神器无法被销毁。#!"
+
+  setting_aom_artifact_destruction_gold_gain_20: "#V 20%#!"
+  setting_aom_artifact_destruction_gold_gain_20_desc: "销毁神器时获得其金币价值的#bold 五分之一#!。\n#help 可以销毁传世及以下稀有度的神器。Artifacts of Myth 添加的传奇神器无法被销毁。#!"
+
+  setting_aom_artifact_destruction_gold_gain_0: "#R 0%#!"
+  setting_aom_artifact_destruction_gold_gain_0_desc: "销毁神器时#bold 不#!获得金币。\n#help 可以销毁传世及以下稀有度的神器。Artifacts of Myth 添加的传奇神器无法被销毁。#!"
+
+  aom_artifact_is_legendary_tt: "传奇神器无法被销毁"
+
+# Non-Decaying Artifact Destruction Gamerule
+  rule_aom_non_decaying_artifact_destruction: "销毁不会损耗的神器"
+
+  setting_aom_non_decaying_artifact_destruction_disabled: "#R 禁用#!"
+  setting_aom_non_decaying_artifact_destruction_disabled_desc: "#bold 无法#!销毁不会损耗的神器。"
+
+  setting_aom_non_decaying_artifact_destruction_enabled: "#P 启用#!"
+  setting_aom_non_decaying_artifact_destruction_enabled_desc: "#bold 可以#!销毁不会损耗的神器。"
+
+  aom_artifact_is_non_decaying_tt: "不会损耗的神器无法被销毁。"
 
 # Artifact Requirements Gamerule
   rule_aom_artifact_requirements: "遗物使用条件"

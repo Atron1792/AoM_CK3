@@ -27,6 +27,7 @@ create_artifact_aom_conquests_crown_effect = {
 		set_variable = aom_conquests_crown
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -55,6 +56,7 @@ create_artifact_aom_wars_greatsword_effect = {
 		set_variable = aom_wars_greatsword
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -139,6 +141,7 @@ create_artifact_aom_deaths_scythe_effect = {
 		set_variable = aom_deaths_scythe
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -201,7 +204,7 @@ create_artifact_aom_bradamantes_lance_effect = {
 # Holy Lance (Spear of Longinus)
 create_artifact_aom_holy_lance_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_holy_lance_name
 		description = aom_holy_lance_desc
@@ -251,6 +254,7 @@ create_artifact_aom_conquests_bow_effect = {
 		set_variable = aom_conquests_bow
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -308,6 +312,7 @@ create_artifact_aom_famines_scale_effect = {
 		set_variable = aom_famines_scale
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -370,7 +375,7 @@ create_artifact_aom_sudarium_of_oviedo_effect = {
 # Holy Grail (Holy Chalice)
 create_artifact_aom_holy_grail_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_holy_grail_name
 		description = aom_holy_grail_desc
@@ -448,6 +453,7 @@ create_artifact_aom_book_of_life_effect = {
 		set_variable = aom_book_of_life
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -476,6 +482,7 @@ create_artifact_aom_forbidden_fruit_effect = {
 		set_variable = aom_forbidden_fruit
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -504,6 +511,7 @@ create_artifact_aom_horn_of_gabriel_effect = {
 		set_variable = aom_horn_of_gabriel
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -623,7 +631,7 @@ create_artifact_aom_coat_of_many_colors_effect = {
 # Aaron's Rod (Moses' Brother's Staff)
 create_artifact_aom_aarons_rod_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_illustrious = yes
+	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_aarons_rod_name
 		description = aom_aarons_rod_desc
@@ -651,7 +659,7 @@ create_artifact_aom_aarons_rod_effect = {
 # Solomon's Shamir
 create_artifact_aom_solomons_shamir_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_solomons_shamir_name
 		description = aom_solomons_shamir_desc
@@ -679,7 +687,7 @@ create_artifact_aom_solomons_shamir_effect = {
 # Greater Key of Solomon
 create_artifact_aom_greater_key_of_solomon_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_greater_key_of_solomon_name
 		description = aom_greater_key_of_solomon_desc
@@ -707,7 +715,7 @@ create_artifact_aom_greater_key_of_solomon_effect = {
 # Lesser Key of Solomon
 create_artifact_aom_lesser_key_of_solomon_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_lesser_key_of_solomon_name
 		description = aom_lesser_key_of_solomon_desc
@@ -870,6 +878,7 @@ create_artifact_aom_leviathans_hide_effect = {
 		set_variable = aom_leviathans_hide
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -898,6 +907,7 @@ create_artifact_aom_throne_of_god_effect = {
 		set_variable = aom_throne_of_god
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 

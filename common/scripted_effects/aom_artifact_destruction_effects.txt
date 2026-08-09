@@ -1,0 +1,78 @@
+﻿# Artifact Destruction
+aom_destroy_artifact_effect = {
+	$ARTIFACT$ = {
+		save_temporary_scope_as = artifact
+	}
+
+	$DESTROYER$ = {
+		if = {
+			limit = {
+				OR = {
+					$DESTROYER$.faith = { has_doctrine_parameter = destroying_artifacts_is_pious }
+					$PIETY_BY_DEFAULT$ = yes
+				}
+			}
+			give_destroyed_artifact_piety = yes
+		}
+		if = {
+			limit = { $GIVE_GOLD$ = yes }
+			add_gold = {
+				if = {
+					limit = { scope:artifact = { rarity = illustrious } }
+					add = 25
+				}
+				else_if = {
+					limit = { scope:artifact = { rarity = famed } }
+					add = 15
+				}
+				else_if = {
+					limit = { scope:artifact = { rarity = masterwork } }
+					add = 8
+				}
+				else = { add = 4 }
+
+				multiply = 10
+
+				# Scale between 50% at zero durability and 100% at full durability.
+				multiply = {
+					add = scope:artifact.artifact_durability
+					divide = scope:artifact.artifact_max_durability
+					divide = 2
+					add = 0.5
+				}
+
+				if = {
+					limit = { $DESTROYER$ = { has_government = landless_adventurer_government } }
+					multiply = {
+						value = 0.1
+						round = yes
+					}
+				}
+				if = {
+					limit = { exists = scope:artifact.var:ai_to_ai_destroy_in_sieges }
+					max = {
+						value = $DESTROYER$.tiny_gold_value
+						multiply = 0.5
+					}
+				}
+
+				min = 1
+
+				# Apply this after the vanilla minimum so the 0% rule yields no gold.
+				if = {
+					limit = { has_game_rule = aom_artifact_destruction_gold_gain_50 }
+					multiply = 0.5
+				}
+				else_if = {
+					limit = { has_game_rule = aom_artifact_destruction_gold_gain_20 }
+					multiply = 0.2
+				}
+				else_if = {
+					limit = { has_game_rule = aom_artifact_destruction_gold_gain_0 }
+					multiply = 0
+				}
+			}
+		}
+		destroy_owned_artifact = scope:artifact
+	}
+}

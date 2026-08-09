@@ -1,0 +1,186 @@
+﻿# Extends the vanilla destruction interaction to illustrious rarity while excluding Artifacts of Myth's Legendary rarity
+destroy_artifact_interaction = {
+	interface_priority = 30
+	common_interaction = yes
+	icon = artifact
+	category = interaction_category_friendly
+	desc = destroy_artifact_interaction_desc
+
+	target_type = artifact
+	target_filter = actor_artifacts
+
+	ai_targets = {
+		ai_recipients = self
+	}
+
+	is_shown = {
+		scope:recipient = scope:actor
+		scope:actor = { has_any_artifact = yes }
+		scope:actor = {
+			trigger_if = {
+				limit = { exists = involved_activity }
+				NOT = {
+					involved_activity ?= {
+						has_activity_type = activity_coronation
+						activity_host = scope:actor
+					}
+				}
+			}
+		}
+	}
+
+	can_be_picked_artifact = {
+		custom_tooltip = {
+			text = artifact_is_related_to_contract_tt
+			scope:target = {
+				NOR = {
+					has_variable = 1025_treasure_map
+					has_variable = is_tribute_mission_artifact
+				}
+			}
+		}
+		custom_tooltip = {
+			text = artifact_is_related_to_great_project_construction_tt
+			scope:target = {
+				NOT = { has_variable = mandala_capital_05_unconfirmed_talisman }
+			}
+		}
+	}
+
+	has_valid_target_showing_failures_only = {
+		custom_tooltip = {
+			text = aom_artifact_is_legendary_tt
+			scope:target = {
+				NOT = { var:aom_artifact_display_rarity = 5 }
+			}
+		}
+		custom_tooltip = {
+			text = aom_artifact_is_non_decaying_tt
+			OR = {
+				has_game_rule = aom_non_decaying_artifact_destruction_enabled
+				scope:target = { should_decay = yes }
+			}
+		}
+		scope:actor = {
+			trigger_if = {
+				limit = { has_government = landless_adventurer_government }
+				employs_court_position = armorer_camp_officer
+			}
+		}
+	}
+
+	on_accept = {
+		aom_destroy_artifact_effect = {
+			ARTIFACT = scope:target
+			DESTROYER = scope:actor
+			GIVE_GOLD = yes
+			PIETY_BY_DEFAULT = no
+		}
+	}
+
+	ai_frequency_by_tier = {
+		barony = 0
+		county = 48
+		duchy = 24
+		kingdom = 24
+		empire = 24
+		hegemony = 24
+	}
+
+	is_available = {
+		OR = {
+			is_ai = no
+			faith = { has_doctrine_parameter = destroying_artifacts_is_pious }
+			gold <= minor_gold_value
+			AND = {
+				gold <= medium_gold_value
+				ai_has_builder_or_pious_builder_personality = yes
+			}
+			any_character_artifact = { has_variable = unwanted_artifact }
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+		modifier = {
+			add = 100
+			scope:target = { has_variable = unwanted_artifact }
+		}
+		modifier = {
+			add = 100
+			scope:target = { has_variable = ai_to_ai_destroy_in_sieges }
+		}
+		modifier = {
+			add = 100
+			OR = {
+				gold <= minor_gold_value
+				AND = {
+					gold <= medium_gold_value
+					ai_has_builder_or_pious_builder_personality = yes
+				}
+			}
+			scope:target = {
+				rarity = common
+				is_equipped = no
+			}
+		}
+		modifier = {
+			add = 100
+			gold <= 0
+			scope:target = { is_equipped = no }
+		}
+		modifier = {
+			add = 100
+			OR = {
+				gold <= minor_gold_value
+				AND = {
+					gold <= medium_gold_value
+					ai_has_builder_or_pious_builder_personality = yes
+				}
+			}
+			scope:target = {
+				rarity = common
+				artifact_slot_type = miscellaneous
+				OR = {
+					AND = {
+						artifact_max_durability >= define:NInventory|ARTIFACT_DEFAULT_MAX_DURABILITY
+						artifact_durability <= define:NInventory|ARTIFACT_LOW_DURABILITY
+					}
+					AND = {
+						artifact_max_durability < define:NInventory|ARTIFACT_DEFAULT_MAX_DURABILITY
+						artifact_durability_percent <= {
+							value = define:NInventory|ARTIFACT_LOW_DURABILITY
+							divide = 100
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			add = 100
+			faith = { has_doctrine_parameter = destroying_artifacts_is_pious }
+			OR = {
+				has_trait = zealous
+				scope:target = { is_equipped = no }
+				scope:target = { exists = var:relic }
+			}
+			NOR = {
+				has_trait = cynical
+				AND = {
+					has_trait = greedy
+					NOT = { has_trait = zealous }
+				}
+			}
+			OR = {
+				has_trait = zealous
+				any_character_artifact = { is_equipped = no }
+				any_character_artifact = { exists = var:relic }
+			}
+		}
+		modifier = {
+			add = 50
+			ai_has_pious_builder_personality = yes
+			faith = { has_doctrine_parameter = destroying_artifacts_is_pious }
+		}
+	}
+}

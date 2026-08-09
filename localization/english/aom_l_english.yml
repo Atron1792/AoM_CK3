@@ -1,4 +1,14 @@
 ﻿l_english:
+# Artifact Rarity
+  aom_legendary: "Legendary"
+  aom_legendary_artifact_rarity_and_type: "#color:{0.9,0.6,0.0} $aom_legendary$ [Artifact.GetType]#!"
+  aom_native_artifact_rarity_and_type: "[Artifact.GetRarity] [Artifact.GetType]"
+  aom_legendary_artifact_rarity_and_slot_type: "#color:{0.9,0.6,0.0} $aom_legendary$ [Artifact.GetSlotType]#!"
+  aom_native_artifact_rarity_and_slot_type: "[Artifact.GetRarity] [Artifact.GetSlotType]"
+  rarity_v: "V"
+  ARTIFACT_RARITY_AND_TYPE: "[Artifact.Custom('aom_artifact_rarity_and_type')]"
+  ARTIFACT_RARITY_AND_SLOT_TYPE: "[Artifact.Custom('aom_artifact_rarity_and_slot_type')]"
+
 # Artifact Types
   artifact_bow_simple: "Bow"
   artifact_armor_simple: "Armor"
@@ -144,6 +154,34 @@
   aom_convert_to_shinto_decision_tooltip: "Convert your faith to Shinto if you hold a Shinto artifact."
   aom_convert_to_shinto_decision_confirm: "Commune with the Kami"
   aom_has_shinto_artifact: "You possess a Shinto artifact"
+
+# Artifact Destruction Gold Gain Gamerule
+  rule_aom_artifact_destruction_gold_gain: "Gold Gain Upon Artifact Destruction"
+
+  setting_aom_artifact_destruction_gold_gain_100: "#P 100%#!"
+  setting_aom_artifact_destruction_gold_gain_100_desc: "Destroying an artifact grants the #bold full#! base-game gold value.\n#help Artifacts of Illustrious rarity or lower can be destroyed. Legendary artifacts added by Artifacts of Myth are indestructible.#!"
+
+  setting_aom_artifact_destruction_gold_gain_50: "#M 50%#!"
+  setting_aom_artifact_destruction_gold_gain_50_desc: "Destroying an artifact grants #bold half#! of the gold value.\n#help Artifacts of Illustrious rarity or lower can be destroyed. Legendary artifacts added by Artifacts of Myth are indestructible.#!"
+
+  setting_aom_artifact_destruction_gold_gain_20: "#V 20%#!"
+  setting_aom_artifact_destruction_gold_gain_20_desc: "Destroying an artifact grants a #bold fifth#! of the gold value.\n#help Artifacts of Illustrious rarity or lower can be destroyed. Legendary artifacts added by Artifacts of Myth are indestructible.#!"
+
+  setting_aom_artifact_destruction_gold_gain_0: "#R 0%#!"
+  setting_aom_artifact_destruction_gold_gain_0_desc: "Destroying an artifact grants #bold no#! gold.\n#help Artifacts of Illustrious rarity or lower can be destroyed. Legendary artifacts added by Artifacts of Myth are indestructible.#!"
+
+  aom_artifact_is_legendary_tt: "Legendary artifacts cannot be destroyed"
+
+# Non-Decaying Artifact Destruction Gamerule
+  rule_aom_non_decaying_artifact_destruction: "Non-Decaying Artifact Destruction"
+
+  setting_aom_non_decaying_artifact_destruction_disabled: "#R Disabled#!"
+  setting_aom_non_decaying_artifact_destruction_disabled_desc: "Artifacts that do not decay #bold cannot#! be destroyed."
+
+  setting_aom_non_decaying_artifact_destruction_enabled: "#P Enabled#!"
+  setting_aom_non_decaying_artifact_destruction_enabled_desc: "Artifacts that do not decay #bold can#! be destroyed."
+
+  aom_artifact_is_non_decaying_tt: "Non-decaying artifacts cannot be destroyed."
 
 # Artifact Requirements Gamerule
   rule_aom_artifact_requirements: "Artifact Requirements"

@@ -1,4 +1,26 @@
-﻿#  Artifact Requirements
+﻿# Artifact Destruction Gold Gain
+aom_artifact_destruction_gold_gain = {
+	categories = { aom }
+
+	default = aom_artifact_destruction_gold_gain_100
+
+	aom_artifact_destruction_gold_gain_100 = {}
+	aom_artifact_destruction_gold_gain_50 = {}
+	aom_artifact_destruction_gold_gain_20 = {}
+	aom_artifact_destruction_gold_gain_0 = {}
+}
+
+# Non-Decaying Artifact Destruction
+aom_non_decaying_artifact_destruction = {
+	categories = { aom }
+
+	default = aom_non_decaying_artifact_destruction_disabled
+
+	aom_non_decaying_artifact_destruction_disabled = {}
+	aom_non_decaying_artifact_destruction_enabled = {}
+}
+
+# Artifact Requirements
 aom_artifact_requirements = {
 	categories = { aom }
 

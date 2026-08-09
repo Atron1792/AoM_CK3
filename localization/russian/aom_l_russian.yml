@@ -1,4 +1,14 @@
 ﻿l_russian:
+# Artifact Rarity
+  aom_legendary: "Легендарный"
+  aom_legendary_artifact_rarity_and_type: "#color:{0.9,0.6,0.0} $aom_legendary$ [Artifact.GetType]#!"
+  aom_native_artifact_rarity_and_type: "[Artifact.GetRarity] [Artifact.GetType]"
+  aom_legendary_artifact_rarity_and_slot_type: "#color:{0.9,0.6,0.0} $aom_legendary$ [Artifact.GetSlotType]#!"
+  aom_native_artifact_rarity_and_slot_type: "[Artifact.GetRarity] [Artifact.GetSlotType]"
+  rarity_v: "V"
+  ARTIFACT_RARITY_AND_TYPE: "[Artifact.Custom('aom_artifact_rarity_and_type')]"
+  ARTIFACT_RARITY_AND_SLOT_TYPE: "[Artifact.Custom('aom_artifact_rarity_and_slot_type')]"
+
 # Artifact Types
   artifact_bow_simple: "Лук"
   artifact_armor_simple: "Доспех"
@@ -136,6 +146,34 @@
   aom_convert_to_shinto_decision_tooltip: "Преврати свою веру в Синто, если ты владеешь артефактом Синто."
   aom_convert_to_shinto_decision_confirm: "Общаться с Ками"
   aom_has_shinto_artifact: "У тебя есть артефакт Синто"
+
+# Artifact Destruction Gold Gain Gamerule
+  rule_aom_artifact_destruction_gold_gain: "Золото за уничтожение артефактов"
+
+  setting_aom_artifact_destruction_gold_gain_100: "#P 100%#!"
+  setting_aom_artifact_destruction_gold_gain_100_desc: "Уничтожение артефакта приносит #bold полную#! базовую стоимость в золоте.\n#help Можно уничтожать артефакты прославленной редкости и ниже. Легендарные артефакты, добавленные Artifacts of Myth, неразрушимы.#!"
+
+  setting_aom_artifact_destruction_gold_gain_50: "#M 50%#!"
+  setting_aom_artifact_destruction_gold_gain_50_desc: "Уничтожение артефакта приносит #bold половину#! стоимости в золоте.\n#help Можно уничтожать артефакты прославленной редкости и ниже. Легендарные артефакты, добавленные Artifacts of Myth, неразрушимы.#!"
+
+  setting_aom_artifact_destruction_gold_gain_20: "#V 20%#!"
+  setting_aom_artifact_destruction_gold_gain_20_desc: "Уничтожение артефакта приносит #bold пятую часть#! стоимости в золоте.\n#help Можно уничтожать артефакты прославленной редкости и ниже. Легендарные артефакты, добавленные Artifacts of Myth, неразрушимы.#!"
+
+  setting_aom_artifact_destruction_gold_gain_0: "#R 0%#!"
+  setting_aom_artifact_destruction_gold_gain_0_desc: "Уничтожение артефакта не приносит #bold никакого#! золота.\n#help Можно уничтожать артефакты прославленной редкости и ниже. Легендарные артефакты, добавленные Artifacts of Myth, неразрушимы.#!"
+
+  aom_artifact_is_legendary_tt: "Легендарные артефакты нельзя уничтожать"
+
+# Non-Decaying Artifact Destruction Gamerule
+  rule_aom_non_decaying_artifact_destruction: "Уничтожение неразрушающихся артефактов"
+
+  setting_aom_non_decaying_artifact_destruction_disabled: "#R Отключено#!"
+  setting_aom_non_decaying_artifact_destruction_disabled_desc: "Артефакты, которые не изнашиваются, #bold нельзя#! уничтожать."
+
+  setting_aom_non_decaying_artifact_destruction_enabled: "#P Включено#!"
+  setting_aom_non_decaying_artifact_destruction_enabled_desc: "Артефакты, которые не изнашиваются, #bold можно#! уничтожать."
+
+  aom_artifact_is_non_decaying_tt: "Неизнашивающиеся артефакты нельзя уничтожать."
 
 # Artifact Requirements Gamerule
   rule_aom_artifact_requirements: "Требования к Артефактам"

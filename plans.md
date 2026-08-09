@@ -116,6 +116,18 @@
 - **Fixes**
   - Localization for Reseed Missing Artifacts gamerule was missing. oops
 
+## 1.10
+- **New Content**
+  - Added Legendary as a new artifact rarity
+  - Expanded artifact destruction to include artifacts up to Illustrious rarity
+  - Added a game rule controlling whether non-decaying artifacts can be destroyed
+  - Added a game rule controlling how much gold is gained from destroying artifacts
+- **Balance**
+  - Adjusted the rarities of several Abrahamic artifacts
+    - Legendary: Conquest's Crown, War's Greatsword, Death's Scythe, Conquest's Bow, Famine's Scale, Book of Life, Forbidden Fruit, Horn of Gabriel, Leviathan's Hide, and Throne of God
+    - Illustrious: Holy Lance, Holy Grail, Solomon's Shamir, Greater Key of Solomon, and Lesser Key of Solomon
+    - Famed: Aaron's Rod
+
 ## Planned
 - Added Hindu (Indian) artifacts with gamerule control
 - Added Tengri (Mongol) artifacts with gamerule control
