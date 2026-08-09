@@ -1,2 +1,2 @@
-﻿aom_nick_the_mad_arab = { is_bad = yes }
-aom_nick_the_mad_monk = { is_bad = yes }
+﻿nick_the_mad_arab = { is_bad = yes }
+nick_the_mad_monk = { is_bad = yes }
