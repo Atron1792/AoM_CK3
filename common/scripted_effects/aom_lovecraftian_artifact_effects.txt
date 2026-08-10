@@ -88,6 +88,7 @@ create_artifact_aom_deep_ones_tiara_effect = {
 		set_variable = aom_deep_ones_tiara
 		set_variable = aom_lovecraftian_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -147,6 +148,7 @@ create_artifact_aom_shining_trapezohedron_effect = {
 		set_variable = aom_shining_trapezohedron
 		set_variable = aom_lovecraftian_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -203,6 +205,7 @@ create_artifact_aom_sliver_key_effect = {
 		set_variable = aom_sliver_key
 		set_variable = aom_lovecraftian_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -271,7 +274,7 @@ create_artifact_aom_pnakotic_manuscripts_effect = {
 # The Mirror Of Nitocris   
 create_artifact_aom_mirror_of_nitocris_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_mirror_of_nitocris_name
 		description = aom_mirror_of_nitocris_desc

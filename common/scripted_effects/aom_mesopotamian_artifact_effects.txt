@@ -23,6 +23,7 @@ create_artifact_aom_sharur_effect = {
 		set_variable = aom_sharur
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -48,6 +49,7 @@ create_artifact_aom_imhullu_effect = {
 		set_variable = aom_imhullu
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -73,6 +75,7 @@ create_artifact_aom_marduks_net_effect = {
 		set_variable = aom_marduks_net
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -126,6 +129,7 @@ create_artifact_aom_bull_of_heaven_effect = {
 		set_variable = aom_bull_of_heaven
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -176,5 +180,6 @@ create_artifact_aom_throne_ereshkigal_effect = {
 		set_variable = aom_throne_ereshkigal
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }

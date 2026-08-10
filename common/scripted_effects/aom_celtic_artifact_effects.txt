@@ -26,6 +26,7 @@ create_artifact_aom_sleg_effect = {
 		set_variable = aom_sleg
 		set_variable = aom_celtic_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -54,6 +55,7 @@ create_artifact_aom_lughs_sling_effect = {
 		set_variable = aom_lughs_sling
 		set_variable = aom_celtic_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -309,6 +311,7 @@ create_artifact_aom_uaithne_effect = {
 		set_variable = aom_uaithne
 		set_variable = aom_celtic_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -393,6 +396,7 @@ create_artifact_aom_pair_dadeni_effect = {
 		set_variable = aom_pair_dadeni
 		set_variable = aom_celtic_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -421,5 +425,6 @@ create_artifact_aom_cauldron_of_inspiration_effect = {
 		set_variable = aom_cauldron_of_inspiration
 		set_variable = aom_celtic_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }

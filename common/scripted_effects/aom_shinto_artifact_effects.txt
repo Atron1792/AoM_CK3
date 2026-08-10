@@ -23,6 +23,7 @@ create_artifact_aom_ame_no_nuboko_effect = {
         set_variable = aom_ame_no_nuboko
         set_variable = aom_shinto_artifact
         save_scope_as = epic
+        aom_set_artifact_rarity_legendary_effect = yes
     }
 }
 
@@ -48,6 +49,7 @@ create_artifact_aom_uchide_no_kozuchi_effect = {
         set_variable = aom_uchide_no_kozuchi
         set_variable = aom_shinto_artifact
         save_scope_as = epic
+        aom_set_artifact_rarity_legendary_effect = yes
     }
 }
 
@@ -298,6 +300,7 @@ create_artifact_aom_ame_no_ohabari_effect = {
         set_variable = aom_ame_no_ohabari
         set_variable = aom_shinto_artifact
         save_scope_as = epic
+        aom_set_artifact_rarity_legendary_effect = yes
     }
 }
 
@@ -576,6 +579,7 @@ create_artifact_aom_raijins_drums_effect = {
         set_variable = aom_raijins_drums
         set_variable = aom_shinto_artifact
         save_scope_as = epic
+        aom_set_artifact_rarity_legendary_effect = yes
     }
 }
 
@@ -601,6 +605,7 @@ create_artifact_aom_fujins_windbag_effect = {
         set_variable = aom_fujins_windbag
         set_variable = aom_shinto_artifact
         save_scope_as = epic
+        aom_set_artifact_rarity_legendary_effect = yes
     }
 }
 
@@ -626,5 +631,6 @@ create_artifact_aom_yamata_no_orochi_scale_effect = {
         set_variable = aom_yamata_no_orochi_scale
         set_variable = aom_shinto_artifact
         save_scope_as = epic
+        aom_set_artifact_rarity_legendary_effect = yes
     }
 }

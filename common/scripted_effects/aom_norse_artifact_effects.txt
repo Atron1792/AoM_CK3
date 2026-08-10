@@ -26,6 +26,7 @@ create_artifact_aom_gungnir_effect = {
 		set_variable = aom_gungnir
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -54,6 +55,7 @@ create_artifact_aom_mjolnir_effect = {
 		set_variable = aom_mjolnir
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -82,6 +84,7 @@ create_artifact_aom_jarngreipr_effect = {
 		set_variable = aom_jarngreipr
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -110,6 +113,7 @@ create_artifact_aom_megingjord_effect = {
 		set_variable = aom_megingjord
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -138,6 +142,7 @@ create_artifact_aom_brisingamen_effect = {
 		set_variable = aom_brisingamen
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -166,6 +171,7 @@ create_artifact_aom_draupnir_effect = {
 		set_variable = aom_draupnir
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -390,6 +396,7 @@ create_artifact_aom_laevateinn_effect = {
 		set_variable = aom_laevateinn
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -446,6 +453,7 @@ create_artifact_aom_hofud_effect = {
 		set_variable = aom_hofud
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -530,6 +538,7 @@ create_artifact_aom_fjadrhamr_effect = {
 		set_variable = aom_fjadrhamr
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -558,6 +567,7 @@ create_artifact_aom_sword_of_freyr_effect = {
 		set_variable = aom_sword_of_freyr
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -589,6 +599,7 @@ create_artifact_aom_throne_hlidskjalf_effect = {
 		set_variable = aom_throne_hlidskjalf
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -617,6 +628,7 @@ create_artifact_aom_gleipnir_effect = {
 		set_variable = aom_gleipnir
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -645,6 +657,7 @@ create_artifact_aom_eldhrimnir_effect = {
 		set_variable = aom_eldhrimnir
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -673,6 +686,7 @@ create_artifact_aom_odrerir_effect = {
 		set_variable = aom_odrerir
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -701,6 +715,7 @@ create_artifact_aom_bodn_effect = {
 		set_variable = aom_bodn
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -729,6 +744,7 @@ create_artifact_aom_son_effect = {
 		set_variable = aom_son
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -757,6 +773,7 @@ create_artifact_aom_gjallarhorn_effect = {
 		set_variable = aom_gjallarhorn
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -785,6 +802,7 @@ create_artifact_aom_mimirs_skull_effect = {
 		set_variable = aom_mimirs_skull
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -813,5 +831,6 @@ create_artifact_aom_bragis_harp_effect = {
 		set_variable = aom_bragis_harp
 		set_variable = aom_norse_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }

@@ -23,6 +23,7 @@ create_artifact_aom_ukonvasara_effect = {
 		set_variable = aom_ukonvasara
 		set_variable = aom_finno_ugric_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -101,6 +102,7 @@ create_artifact_aom_sampo_effect = {
 		set_variable = aom_sampo
 		set_variable = aom_finno_ugric_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 

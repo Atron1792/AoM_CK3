@@ -123,9 +123,21 @@
   - Added a game rule controlling whether non-decaying artifacts can be destroyed
   - Added a game rule controlling how much gold is gained from destroying artifacts
 - **Balance**
-  - Adjusted the rarities of several Abrahamic artifacts
-    - Legendary: Conquest's Crown, War's Greatsword, Death's Scythe, Conquest's Bow, Famine's Scale, Book of Life, Forbidden Fruit, Horn of Gabriel, Leviathan's Hide, and Throne of God
-    - Illustrious: Holy Lance, Holy Grail, Solomon's Shamir, Greater Key of Solomon, and Lesser Key of Solomon
+  - Adjusted the rarities of several artifacts
+    - Legendary:
+      - Abrahamic: Conquest's Crown, War's Greatsword, Death's Scythe, Conquest's Bow, Famine's Scale, Book of Life, Forbidden Fruit, Horn of Gabriel, Leviathan's Hide, and Throne of God
+      - Celtic: Sleg, Lugh's Sling, Uaithne, Pair Dadeni, and Cauldron of Inspiration
+      - Chinese: Pangu's Axe, Ruyi Jingu Bang, Sun Wukong's Boots, Peach of Immortality, and Kenkonken
+      - Easter Egg: The One Ring and Elder Wand
+      - Egyptian: Book of Thoth, Spear of Ra, Knife of Isis, Eye of Horus, Neith's Loom, Feather of Ma'at, and Anubis' Scales
+      - Finno-Ugric: Ukonvasara and Sampo
+      - Greco-Roman: Aegis, Ambrosia, Apollo's Bow, Caduceus, Eros' Bow, Golden Apple of Discord, Rod of Asclepius, Poseidon's Trident, Thyrsus, Talaria, Zeus' Lightning Bolt, Hades' Bident, Helm of Darkness, Necklace of Harmonia, Kronos' Scythe, Zeus' Labrys, Artemis's Bow, Panacea, Nemean Lion Hide, Apollo's Kithara, Cornucopia, Golden Fleece, Scale of Justice, Prometheus's Chains, Medusa's Head, and Zeus' Throne
+      - Lovecraftian: Deep One's Tiara, The Shining Trapezohedron, and The Silver Key
+      - Mesopotamian: Sharur, Imhullu, Marduk's Net, Bull of Heaven's Horns, and Ereshkigal's Throne
+      - Norse: Gungnir, Mjölnir, Járngreipr, Megingjörð, Brísingamen, Draupnir, Lævateinn, Hofuð, Fjaðrhamr, Sword of Freyr, Hlidskjalf, Gleipnir, Eldhrímnir, Óðrerir, Boðn, Són, Gjallarhorn, Mímir's Skull, and Bragi's Harp
+      - Shinto: Ame-no-Nuboko, Uchide no Kozuchi, Ame-no-Ohabari, Raijin's Drums, Fūjin's Windbag, and Yamata no Orochi's Scale
+      - Slavic: Perun's Axe and Firebird's Feather
+    - Illustrious: Holy Lance, Holy Grail, Solomon's Shamir, Greater Key of Solomon, Lesser Key of Solomon, Palantír, and Mirror of Nitocris
     - Famed: Aaron's Rod
 
 ## Planned

@@ -48,6 +48,7 @@ create_artifact_aom_peruns_axe_effect = {
         set_variable = aom_peruns_axe
         set_variable = aom_artifact
         save_scope_as = epic
+        aom_set_artifact_rarity_legendary_effect = yes
     }
 }
 
@@ -98,6 +99,7 @@ create_artifact_aom_firebird_feather_effect = {
         set_variable = aom_firebird_feather
         set_variable = aom_artifact
         save_scope_as = epic
+        aom_set_artifact_rarity_legendary_effect = yes
     }
 }
 

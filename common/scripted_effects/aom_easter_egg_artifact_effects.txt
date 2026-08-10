@@ -73,6 +73,7 @@ create_artifact_aom_one_ring_effect = {
 		set_variable = aom_one_ring
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -98,6 +99,7 @@ create_artifact_aom_elder_wand_effect = {
 		set_variable = aom_elder_wand
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -132,7 +134,7 @@ create_artifact_aom_lightsaber_effect = {
 # Palantír (LotR)
 create_artifact_aom_palantir_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_palantir_name
 		description = aom_palantir_desc

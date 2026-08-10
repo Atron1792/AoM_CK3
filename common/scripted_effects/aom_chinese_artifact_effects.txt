@@ -23,6 +23,7 @@ create_artifact_aom_pangu_axe_effect = {
 		set_variable = aom_pangu_axe
 		set_variable = aom_chinese_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -48,6 +49,7 @@ create_artifact_aom_ruyi_jingu_bang_effect = {
 		set_variable = aom_ruyi_jingu_bang
 		set_variable = aom_chinese_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -73,6 +75,7 @@ create_artifact_aom_wukong_boots_effect = {
 		set_variable = aom_wukong_boots
 		set_variable = aom_chinese_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -98,6 +101,7 @@ create_artifact_aom_peach_of_immortality_effect = {
 		set_variable = aom_peach_of_immortality
 		set_variable = aom_chinese_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -173,6 +177,7 @@ create_artifact_aom_kenkonken_effect = {
 		set_variable = aom_kenkonken
 		set_variable = aom_chinese_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 

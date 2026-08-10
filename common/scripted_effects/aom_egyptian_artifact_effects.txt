@@ -23,6 +23,7 @@ create_artifact_aom_book_of_thoth_effect = {
 		set_variable = aom_book_of_thoth
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -48,6 +49,7 @@ create_artifact_aom_spear_of_ra_effect = {
 		set_variable = aom_spear_of_ra
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -73,6 +75,7 @@ create_artifact_aom_knife_of_isis_effect = {
 		set_variable = aom_knife_of_isis
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -98,6 +101,7 @@ create_artifact_aom_eye_of_horus_effect = {
 		set_variable = aom_eye_of_horus
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -226,6 +230,7 @@ create_artifact_aom_neiths_loom_effect = {
 		set_variable = aom_neiths_loom
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -251,6 +256,7 @@ create_artifact_aom_feather_of_maat_effect = {
 		set_variable = aom_feather_of_maat
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -276,5 +282,6 @@ create_artifact_aom_anubis_scales_effect = {
 		set_variable = aom_anubis_scales
 		set_variable = aom_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }

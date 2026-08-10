@@ -54,6 +54,7 @@ create_artifact_aom_aegis_effect = {
 		set_variable = aom_aegis
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -82,6 +83,7 @@ create_artifact_aom_ambrosia_effect = {
 		set_variable = aom_ambrosia
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -110,6 +112,7 @@ create_artifact_aom_apollos_bow_effect = {
 		set_variable = aom_apollos_bow
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -138,6 +141,7 @@ create_artifact_aom_caduceus_effect = {
 		set_variable = aom_caduceus
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -165,6 +169,7 @@ create_artifact_aom_eros_bow_effect = {
 		}
 		set_variable = aom_eros_bow
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -193,6 +198,7 @@ create_artifact_aom_apple_of_discord_effect = {
 		set_variable = aom_apple_of_discord
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -221,6 +227,7 @@ create_artifact_aom_rod_of_asclepius_effect = {
 		set_variable = aom_rod_of_asclepius
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -249,6 +256,7 @@ create_artifact_aom_poseidons_trident_effect = {
 		set_variable = aom_poseidons_trident
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -333,6 +341,7 @@ create_artifact_aom_thyrsus_effect = {
 		set_variable = aom_thyrsus
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -361,6 +370,7 @@ create_artifact_aom_talaria_effect = {
 		set_variable = aom_talaria
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -389,6 +399,7 @@ create_artifact_aom_zeus_lightning_bolt_effect = {
 		set_variable = aom_zeus_lightning_bolt
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -417,6 +428,7 @@ create_artifact_aom_hades_bident_effect = {
 		set_variable = aom_hades_bident
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -445,6 +457,7 @@ create_artifact_aom_helm_of_darkness_effect = {
 		set_variable = aom_helm_of_darkness
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -501,6 +514,7 @@ create_artifact_aom_necklace_of_harmonia_effect = {
 		set_variable = aom_necklace_of_harmonia
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -529,6 +543,7 @@ create_artifact_aom_kronos_scythe_effect = {
 		set_variable = aom_kronos_scythe
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -557,6 +572,7 @@ create_artifact_aom_zeus_labrys_effect = {
 		set_variable = aom_zeus_labrys
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -585,6 +601,7 @@ create_artifact_aom_artemis_bow_effect = {
 		set_variable = aom_artemis_bow
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -641,6 +658,7 @@ create_artifact_aom_panacea_effect = {
 		set_variable = aom_panacea
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -725,6 +743,7 @@ create_artifact_aom_nemean_lion_hide_effect = {
 		set_variable = aom_nemean_lion_hide
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -784,6 +803,7 @@ create_artifact_aom_apollos_kithara_effect = {
 		set_variable = aom_apollos_kithara
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -812,6 +832,7 @@ create_artifact_aom_cornucopia_effect = {
 		set_variable = aom_cornucopia
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -840,6 +861,7 @@ create_artifact_aom_golden_fleece_effect = {
 		set_variable = aom_golden_fleece
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -868,6 +890,7 @@ create_artifact_aom_scale_of_justice_effect = {
 		set_variable = aom_scale_of_justice
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -924,6 +947,7 @@ create_artifact_aom_prometheus_chains_effect = {
 		set_variable = aom_prometheus_chains
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -952,6 +976,7 @@ create_artifact_aom_medusas_head_effect = {
 		set_variable = aom_medusas_head
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
 
@@ -980,5 +1005,6 @@ create_artifact_aom_throne_zeus_effect = {
 		set_variable = aom_throne_zeus
 		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
+		aom_set_artifact_rarity_legendary_effect = yes
 	}
 }
