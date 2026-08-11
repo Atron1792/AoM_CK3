@@ -34,6 +34,17 @@ The art is generated using ChatGPT's image tools, with editing by me.
 
 French, German, Russian, Simplified Chinese, and Spanish localization is machine-translated through Google Translate and ChatGPT.
 
+Overwrites the following vanilla files and code:
+```
+game/common/character_interactions/00_artifact_interactions.txt: destroy_artifact_interaction
+game/common/customizable_localization/ledger_custom_loc.txt: artifact_rarity_ledger
+game/localization/english/inventory/inventory_l_english.yml: ARTIFACT_RARITY_AND_TYPE
+game/localization/english/inventory/inventory_l_english.yml: ARTIFACT_RARITY_AND_SLOT_TYPE
+game/gui/window_inventory.gui: InventoryViewTypes.icon_artifact
+game/gui/window_inventory.gui: InventoryViewTypes.button_artifact
+game/gfx/interface/icons/artifact/artifact_bg.dds
+```
+
 Should be compatible with most mods, except total conversions.
 
 **Hope you enjoy!**

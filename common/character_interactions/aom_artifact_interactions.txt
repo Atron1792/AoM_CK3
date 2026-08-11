@@ -1,5 +1,4 @@
-﻿# Extends the vanilla destruction interaction to illustrious rarity while excluding Artifacts of Myth's Legendary rarity
-destroy_artifact_interaction = {
+﻿destroy_artifact_interaction = {
 	interface_priority = 30
 	common_interaction = yes
 	icon = artifact
@@ -49,16 +48,13 @@ destroy_artifact_interaction = {
 
 	has_valid_target_showing_failures_only = {
 		custom_tooltip = {
-			text = aom_artifact_is_legendary_tt
-			scope:target = {
-				NOT = { var:aom_artifact_display_rarity = 5 }
-			}
-		}
-		custom_tooltip = {
-			text = aom_artifact_is_non_decaying_tt
+			text = aom_artifact_is_historical_unique_tt
 			OR = {
-				has_game_rule = aom_non_decaying_artifact_destruction_enabled
-				scope:target = { should_decay = yes }
+				scope:target = { NOT = { has_variable = historical_unique_artifact } }
+				AND = {
+					scope:actor = { is_ai = no }
+					has_game_rule = aom_historical_unique_artifact_destruction_enabled
+				}
 			}
 		}
 		scope:actor = {

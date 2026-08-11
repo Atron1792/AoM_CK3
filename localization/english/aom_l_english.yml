@@ -159,29 +159,27 @@
   rule_aom_artifact_destruction_gold_gain: "Gold Gain Upon Artifact Destruction"
 
   setting_aom_artifact_destruction_gold_gain_100: "#P 100%#!"
-  setting_aom_artifact_destruction_gold_gain_100_desc: "Destroying an artifact grants the #bold full#! base-game gold value.\n#help Artifacts of Illustrious rarity or lower can be destroyed. Legendary artifacts added by Artifacts of Myth are indestructible.#!"
+  setting_aom_artifact_destruction_gold_gain_100_desc: "Destroying an artifact grants the #bold full#! destruction value."
 
   setting_aom_artifact_destruction_gold_gain_50: "#M 50%#!"
-  setting_aom_artifact_destruction_gold_gain_50_desc: "Destroying an artifact grants #bold half#! of the gold value.\n#help Artifacts of Illustrious rarity or lower can be destroyed. Legendary artifacts added by Artifacts of Myth are indestructible.#!"
+  setting_aom_artifact_destruction_gold_gain_50_desc: "Destroying an artifact grants #bold half#! of the destruction value."
 
   setting_aom_artifact_destruction_gold_gain_20: "#V 20%#!"
-  setting_aom_artifact_destruction_gold_gain_20_desc: "Destroying an artifact grants a #bold fifth#! of the gold value.\n#help Artifacts of Illustrious rarity or lower can be destroyed. Legendary artifacts added by Artifacts of Myth are indestructible.#!"
+  setting_aom_artifact_destruction_gold_gain_20_desc: "Destroying an artifact grants a #bold fifth#! of the destruction value."
 
   setting_aom_artifact_destruction_gold_gain_0: "#R 0%#!"
-  setting_aom_artifact_destruction_gold_gain_0_desc: "Destroying an artifact grants #bold no#! gold.\n#help Artifacts of Illustrious rarity or lower can be destroyed. Legendary artifacts added by Artifacts of Myth are indestructible.#!"
+  setting_aom_artifact_destruction_gold_gain_0_desc: "Destroying an artifact grants #bold no#! gold."
 
-  aom_artifact_is_legendary_tt: "Legendary artifacts cannot be destroyed"
+# Unique Historical Artifact Destruction Gamerule
+  rule_aom_historical_unique_artifact_destruction: "Unique Historical Artifact Destruction"
 
-# Non-Decaying Artifact Destruction Gamerule
-  rule_aom_non_decaying_artifact_destruction: "Non-Decaying Artifact Destruction"
+  setting_aom_historical_unique_artifact_destruction_disabled: "#R Disabled#!"
+  setting_aom_historical_unique_artifact_destruction_disabled_desc: "Unique historical artifacts #bold cannot#! be destroyed."
 
-  setting_aom_non_decaying_artifact_destruction_disabled: "#R Disabled#!"
-  setting_aom_non_decaying_artifact_destruction_disabled_desc: "Artifacts that do not decay #bold cannot#! be destroyed."
+  setting_aom_historical_unique_artifact_destruction_enabled: "#P Enabled#!"
+  setting_aom_historical_unique_artifact_destruction_enabled_desc: "Unique historical artifacts #bold can#! be destroyed."
 
-  setting_aom_non_decaying_artifact_destruction_enabled: "#P Enabled#!"
-  setting_aom_non_decaying_artifact_destruction_enabled_desc: "Artifacts that do not decay #bold can#! be destroyed."
-
-  aom_artifact_is_non_decaying_tt: "Non-decaying artifacts cannot be destroyed."
+  aom_artifact_is_historical_unique_tt: "Unique historical artifacts cannot be destroyed"
 
 # Artifact Requirements Gamerule
   rule_aom_artifact_requirements: "Artifact Requirements"

@@ -151,29 +151,27 @@
   rule_aom_artifact_destruction_gold_gain: "Goldgewinn bei Artefaktzerstörung"
 
   setting_aom_artifact_destruction_gold_gain_100: "#P 100 %#!"
-  setting_aom_artifact_destruction_gold_gain_100_desc: "Die Zerstörung eines Artefakts gewährt den #bold vollen#! Goldwert des Grundspiels.\n#help Artefakte der Seltenheit Illuster oder niedriger können zerstört werden. Von Artifacts of Myth hinzugefügte legendäre Artefakte sind unzerstörbar.#!"
+  setting_aom_artifact_destruction_gold_gain_100_desc: "Die Zerstörung eines Artefakts gewährt den #bold vollen#! Zerstörungswert."
 
   setting_aom_artifact_destruction_gold_gain_50: "#M 50 %#!"
-  setting_aom_artifact_destruction_gold_gain_50_desc: "Die Zerstörung eines Artefakts gewährt #bold die Hälfte#! des Goldwerts.\n#help Artefakte der Seltenheit Illuster oder niedriger können zerstört werden. Von Artifacts of Myth hinzugefügte legendäre Artefakte sind unzerstörbar.#!"
+  setting_aom_artifact_destruction_gold_gain_50_desc: "Die Zerstörung eines Artefakts gewährt #bold die Hälfte#! des Zerstörungswerts."
 
   setting_aom_artifact_destruction_gold_gain_20: "#V 20 %#!"
-  setting_aom_artifact_destruction_gold_gain_20_desc: "Die Zerstörung eines Artefakts gewährt #bold ein Fünftel#! des Goldwerts.\n#help Artefakte der Seltenheit Illuster oder niedriger können zerstört werden. Von Artifacts of Myth hinzugefügte legendäre Artefakte sind unzerstörbar.#!"
+  setting_aom_artifact_destruction_gold_gain_20_desc: "Die Zerstörung eines Artefakts gewährt #bold ein Fünftel#! des Zerstörungswerts."
 
   setting_aom_artifact_destruction_gold_gain_0: "#R 0 %#!"
-  setting_aom_artifact_destruction_gold_gain_0_desc: "Die Zerstörung eines Artefakts gewährt #bold kein#! Gold.\n#help Artefakte der Seltenheit Illuster oder niedriger können zerstört werden. Von Artifacts of Myth hinzugefügte legendäre Artefakte sind unzerstörbar.#!"
+  setting_aom_artifact_destruction_gold_gain_0_desc: "Die Zerstörung eines Artefakts gewährt #bold kein#! Gold."
 
-  aom_artifact_is_legendary_tt: "Legendäre Artefakte können nicht zerstört werden"
+# Unique Historical Artifact Destruction Gamerule
+  rule_aom_historical_unique_artifact_destruction: "Zerstörung einzigartiger historischer Artefakte"
 
-# Non-Decaying Artifact Destruction Gamerule
-  rule_aom_non_decaying_artifact_destruction: "Zerstörung nicht verfallender Artefakte"
+  setting_aom_historical_unique_artifact_destruction_disabled: "#R Können nicht zerstört werden#!"
+  setting_aom_historical_unique_artifact_destruction_disabled_desc: "Einzigartige historische Artefakte #bold können nicht#! zerstört werden."
 
-  setting_aom_non_decaying_artifact_destruction_disabled: "#R Deaktiviert#!"
-  setting_aom_non_decaying_artifact_destruction_disabled_desc: "Artefakte, die nicht verfallen, #bold können nicht#! zerstört werden."
+  setting_aom_historical_unique_artifact_destruction_enabled: "#P Können zerstört werden#!"
+  setting_aom_historical_unique_artifact_destruction_enabled_desc: "Einzigartige historische Artefakte #bold können#! zerstört werden."
 
-  setting_aom_non_decaying_artifact_destruction_enabled: "#P Aktiviert#!"
-  setting_aom_non_decaying_artifact_destruction_enabled_desc: "Artefakte, die nicht verfallen, #bold können#! zerstört werden."
-
-  aom_artifact_is_non_decaying_tt: "Nicht verfallende Artefakte können nicht zerstört werden."
+  aom_artifact_is_historical_unique_tt: "Einzigartige historische Artefakte können nicht zerstört werden."
 
 # Artifact Requirements Gamerule
   rule_aom_artifact_requirements: "Artefaktanforderungen"

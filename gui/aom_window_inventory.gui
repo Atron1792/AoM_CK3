@@ -1,0 +1,85 @@
+types InventoryViewTypes {
+	type icon_artifact = icon {
+		size = { 90 90 }
+
+		block "tooltipwidget" {
+			tooltipwidget = {
+				artifact_tooltip = {}
+			}
+		}
+
+		icon = {
+			name = "rarity_icon"
+			size = { 100% 100% }
+			parentanchor = center
+			alwaystransparent = yes
+			texture = "gfx/interface/icons/artifact/artifact_bg.dds"
+			frame = "[Select_int32( EqualTo_CFixedPoint( Artifact.MakeScope.ScriptValue('aom_artifact_display_rarity_value'), '(CFixedPoint)5' ), '(int32)5', Artifact.GetIconFrame )]"
+			framesize = { 240 240 }
+		}
+
+		icon = {
+			name = "unique_icon"
+			visible = "[Artifact.IsUnique]"
+			size = { 100% 100% }
+			parentanchor = center
+			alwaystransparent = yes
+			texture = "gfx/interface/icons/artifact/artifact_unique.dds"
+		}
+
+		icon = {
+			name = "artifact_icon"
+			size = { 90% 90% }
+			parentanchor = center
+
+			texture = "[Artifact.GetIcon]"
+			frame = "[Artifact.GetIconFrame]"
+			framesize = { 240 240 }
+		}
+	}
+
+	type button_artifact = button {
+		size = { 90 90 }
+		datacontext = "[AccessLocalPlayerCachedData.AccessNewArtifacts]"
+
+		icon = {
+			name = "rarity_icon"
+			size = { 100% 100% }
+			parentanchor = top
+			alwaystransparent = yes
+
+			texture = "gfx/interface/icons/artifact/artifact_bg.dds"
+			frame = "[Select_int32( EqualTo_CFixedPoint( Artifact.MakeScope.ScriptValue('aom_artifact_display_rarity_value'), '(CFixedPoint)5' ), '(int32)5', Artifact.GetIconFrame )]"
+			framesize = { 240 240 }
+		}
+
+		icon = {
+			name = "unique_icon"
+			visible = "[Artifact.IsUnique]"
+			size = { 100% 100% }
+			parentanchor = center
+			alwaystransparent = yes
+			texture = "gfx/interface/icons/artifact/artifact_unique.dds"
+		}
+
+		button = {
+			name = "artifact_icon"
+			size = { 90% 90% }
+			parentanchor = center
+
+			texture = "[Artifact.GetIcon]"
+			frame = "[Artifact.GetIconFrame]"
+			framesize = { 240 240 }
+
+			block "on_click"
+			{
+				onclick = "[ToggleGameViewData( 'artifact_details', Artifact.GetID )]"
+				onclick = "[LocalPlayerNewArtifacts.RemoveNewArtifact( Artifact.Self )]"
+			}
+		}
+
+		tooltipwidget = {
+			artifact_tooltip = {}
+		}
+	}
+}

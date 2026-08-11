@@ -120,7 +120,7 @@
 - **New Content**
   - Added Legendary as a new artifact rarity
   - Expanded artifact destruction to include artifacts up to Illustrious rarity
-  - Added a game rule controlling whether non-decaying artifacts can be destroyed
+  - Added a game rule controlling whether unique historical artifacts can be destroyed
   - Added a game rule controlling how much gold is gained from destroying artifacts
 - **Balance**
   - Adjusted the rarities of several artifacts
@@ -148,7 +148,7 @@
   - Pschent will break apart into Hedjet and Deshret (if character or vassal doesn't control Egypt)
 - Cultural/religious artifact acquisition
   - Court position (bonus if traveller, etc.)
-  - Choose what type (cultural or religious) of artifact you want to find
+  - Choose what type (maybe chose between cultural or religious) of artifact you want to find
   - Choose which council member to help to search (gives negative to council job) or no one which takes longer
   - Events with skill based options, then either prestige or piety cost to claim artifact
     - Claim gives war option

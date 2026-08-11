@@ -18,6 +18,10 @@ aom_destroy_artifact_effect = {
 			limit = { $GIVE_GOLD$ = yes }
 			add_gold = {
 				if = {
+					limit = { scope:artifact = { var:aom_artifact_display_rarity = 5 } }
+					add = 50
+				}
+				else_if = {
 					limit = { scope:artifact = { rarity = illustrious } }
 					add = 25
 				}

@@ -10,14 +10,14 @@ aom_artifact_destruction_gold_gain = {
 	aom_artifact_destruction_gold_gain_0 = {}
 }
 
-# Non-Decaying Artifact Destruction
-aom_non_decaying_artifact_destruction = {
+# Unique Historical Artifact Destruction
+aom_historical_unique_artifact_destruction = {
 	categories = { aom }
 
-	default = aom_non_decaying_artifact_destruction_disabled
+	default = aom_historical_unique_artifact_destruction_disabled
 
-	aom_non_decaying_artifact_destruction_disabled = {}
-	aom_non_decaying_artifact_destruction_enabled = {}
+	aom_historical_unique_artifact_destruction_disabled = {}
+	aom_historical_unique_artifact_destruction_enabled = {}
 }
 
 # Artifact Requirements
