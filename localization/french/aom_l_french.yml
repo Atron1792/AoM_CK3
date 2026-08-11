@@ -147,32 +147,6 @@
   aom_convert_to_shinto_decision_confirm: "Communiquez avec les kami"
   aom_has_shinto_artifact: "Vous possédez un artefact shintoïste"
 
-# Artifact Destruction Gold Gain Gamerule
-  rule_aom_artifact_destruction_gold_gain: "Or obtenu lors de la destruction d'artéfacts"
-
-  setting_aom_artifact_destruction_gold_gain_100: "#P 100 %#!"
-  setting_aom_artifact_destruction_gold_gain_100_desc: "Détruire un artéfact rapporte la #bold totalité#! de sa valeur de destruction."
-
-  setting_aom_artifact_destruction_gold_gain_50: "#M 50 %#!"
-  setting_aom_artifact_destruction_gold_gain_50_desc: "Détruire un artéfact rapporte #bold la moitié#! de sa valeur de destruction."
-
-  setting_aom_artifact_destruction_gold_gain_20: "#V 20 %#!"
-  setting_aom_artifact_destruction_gold_gain_20_desc: "Détruire un artéfact rapporte #bold un cinquième#! de sa valeur de destruction."
-
-  setting_aom_artifact_destruction_gold_gain_0: "#R 0 %#!"
-  setting_aom_artifact_destruction_gold_gain_0_desc: "Détruire un artéfact ne rapporte #bold aucun#! or."
-
-# Unique Historical Artifact Destruction Gamerule
-  rule_aom_historical_unique_artifact_destruction: "Destruction des artéfacts historiques uniques"
-
-  setting_aom_historical_unique_artifact_destruction_disabled: "#R Ne peuvent pas être détruits#!"
-  setting_aom_historical_unique_artifact_destruction_disabled_desc: "Les artéfacts historiques uniques #bold ne peuvent pas#! être détruits."
-
-  setting_aom_historical_unique_artifact_destruction_enabled: "#P Peuvent être détruits#!"
-  setting_aom_historical_unique_artifact_destruction_enabled_desc: "Les artéfacts historiques uniques #bold peuvent#! être détruits."
-
-  aom_artifact_is_historical_unique_tt: "Les artéfacts historiques uniques ne peuvent pas être détruits."
-
 # Artifact Requirements Gamerule
   rule_aom_artifact_requirements: "Conditions d'Utilisation des Artéfacts"
 

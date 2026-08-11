@@ -147,32 +147,6 @@
   aom_convert_to_shinto_decision_confirm: "与神灵交流"
   aom_has_shinto_artifact: "你拥有神道教的遗物"
 
-# Artifact Destruction Gold Gain Gamerule
-  rule_aom_artifact_destruction_gold_gain: "销毁神器所得金币"
-
-  setting_aom_artifact_destruction_gold_gain_100: "#P 100%#!"
-  setting_aom_artifact_destruction_gold_gain_100_desc: "销毁神器时获得其#bold 完整#!的销毁价值。"
-
-  setting_aom_artifact_destruction_gold_gain_50: "#M 50%#!"
-  setting_aom_artifact_destruction_gold_gain_50_desc: "销毁神器时获得其销毁价值的#bold 一半#!。"
-
-  setting_aom_artifact_destruction_gold_gain_20: "#V 20%#!"
-  setting_aom_artifact_destruction_gold_gain_20_desc: "销毁神器时获得其销毁价值的#bold 五分之一#!。"
-
-  setting_aom_artifact_destruction_gold_gain_0: "#R 0%#!"
-  setting_aom_artifact_destruction_gold_gain_0_desc: "销毁神器时#bold 不#!获得金币。"
-
-# Unique Historical Artifact Destruction Gamerule
-  rule_aom_historical_unique_artifact_destruction: "销毁唯一历史宝物"
-
-  setting_aom_historical_unique_artifact_destruction_disabled: "#R 无法销毁#!"
-  setting_aom_historical_unique_artifact_destruction_disabled_desc: "#bold 无法#!销毁唯一历史宝物。"
-
-  setting_aom_historical_unique_artifact_destruction_enabled: "#P 可以销毁#!"
-  setting_aom_historical_unique_artifact_destruction_enabled_desc: "#bold 可以#!销毁唯一历史宝物。"
-
-  aom_artifact_is_historical_unique_tt: "唯一历史宝物无法被销毁。"
-
 # Artifact Requirements Gamerule
   rule_aom_artifact_requirements: "遗物使用条件"
 

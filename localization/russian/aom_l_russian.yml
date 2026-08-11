@@ -147,32 +147,6 @@
   aom_convert_to_shinto_decision_confirm: "Общаться с Ками"
   aom_has_shinto_artifact: "У тебя есть артефакт Синто"
 
-# Artifact Destruction Gold Gain Gamerule
-  rule_aom_artifact_destruction_gold_gain: "Золото за уничтожение артефактов"
-
-  setting_aom_artifact_destruction_gold_gain_100: "#P 100%#!"
-  setting_aom_artifact_destruction_gold_gain_100_desc: "Уничтожение артефакта приносит его #bold полную#! стоимость уничтожения."
-
-  setting_aom_artifact_destruction_gold_gain_50: "#M 50%#!"
-  setting_aom_artifact_destruction_gold_gain_50_desc: "Уничтожение артефакта приносит #bold половину#! стоимости уничтожения."
-
-  setting_aom_artifact_destruction_gold_gain_20: "#V 20%#!"
-  setting_aom_artifact_destruction_gold_gain_20_desc: "Уничтожение артефакта приносит #bold пятую часть#! стоимости уничтожения."
-
-  setting_aom_artifact_destruction_gold_gain_0: "#R 0%#!"
-  setting_aom_artifact_destruction_gold_gain_0_desc: "Уничтожение артефакта не приносит #bold никакого#! золота."
-
-# Unique Historical Artifact Destruction Gamerule
-  rule_aom_historical_unique_artifact_destruction: "Уничтожение уникальных исторических артефактов"
-
-  setting_aom_historical_unique_artifact_destruction_disabled: "#R Нельзя уничтожить#!"
-  setting_aom_historical_unique_artifact_destruction_disabled_desc: "Уникальные исторические артефакты #bold нельзя#! уничтожать."
-
-  setting_aom_historical_unique_artifact_destruction_enabled: "#P Можно уничтожить#!"
-  setting_aom_historical_unique_artifact_destruction_enabled_desc: "Уникальные исторические артефакты #bold можно#! уничтожать."
-
-  aom_artifact_is_historical_unique_tt: "Уникальные исторические артефакты нельзя уничтожать."
-
 # Artifact Requirements Gamerule
   rule_aom_artifact_requirements: "Требования к Артефактам"
 

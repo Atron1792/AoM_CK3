@@ -1,6 +1,13 @@
 ﻿on_game_start = { on_actions = { aom_on_game_start } }
 
 aom_on_game_start = {
+	effect = {
+		set_global_variable = {
+			name = AOM_is_loaded
+			value = yes
+		}
+	}
+
 	events = {
 		aom_game_rule.100
 		aom_game_rule.001
